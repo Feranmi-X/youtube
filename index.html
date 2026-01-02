@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <title>Youtube</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-black md:my-5 my-2 md:mx-5 mx-2 text-white">
+    <div class="flex">
+      <aside class="w-[80px] hidden md:mt-20 md:block">
+        <div class="hover:bg-white hover:text-black">
+          <a href=""><i class="fa-solid fa-house ml-2 text-2xl"></i></a>
+          <h1 class="font-meduim">Home</h1>
+        </div>
+        <div class="mt-5 hover:bg-white hover:text-black">
+          <a href=""><i class="fa-solid fa-play ml-2 text-2xl"></i></a>
+          <h1 class="font-meduim">Shorts</h1>
+        </div>
+        <div class="mt-5 hover:bg-white hover:text-black">
+          <a href=""><i class="fa-solid fa-user ml-2 text-2xl"></i></a>
+          <h1 class="font-meduim -ml-4">Subscriptions</h1>
+        </div>
+        <div class="mt-5 hover:bg-white hover:text-black">
+          <a href=""><i class="fa-solid fa-user-circle text-2xl"></i></a>
+          <h1 class="font-meduim">You</h1>
+        </div>
+      </aside>
+
+      <div class="flex-1 flex flex-col">
+        <!--  top navbar -->
+        <div class="p-2 md:-ml-20 w-[560px]">
+          <div class="flex md:gap-4 gap-2 items-center justify-between">
+            <i
+              class="fa-solid fa-bars hover:bg-white hover:text-black text-2xl text-white"
+            ></i>
+            <div class="flex gap-2">
+              <i class="fa-brands fa-youtube ml-3 text-2xl text-red-600"></i>
+              <h1 class="font-bold md:mr-[90px] text-[20px] md:text-[20px]">
+                YouTube
+              </h1>
+            </div>
+
+            <div class="flex md:mr-[110px]">
+              <input
+                type="search"
+                class="hidden md:block bg-transparent border-0 border md:border border-bg-neutral-900 md:pl-4 md:text-[14px] md:w-[500px] md:h-[41px] rounded-l-3xl"
+                placeholder="Search"
+              />
+              <button>
+                <i
+                  class="fa-solid hover:bg-white hover:text-black fa-magnifying-glass text-[23.6px] md:-mt-[3px] -ml-[1px] md:mr-3 border-0 md:border md:p-2 md:pl-5 rounded-r-3xl px-2 md:px-4 bg-neutral-700-0 md:bg-neutral-900"
+                ></i>
+              </button>
+              <i
+                class="fa-solid hidden md:block hover:bg-white hover:text-black fa-microphone md:h-[45px] md:w-[45px] border-0 md:border md:pl-4 md:pt-[13px] rounded-3xl md:bg-neutral-900"
+              ></i>
+            </div>
+
+            <div class="flex md:gap-4 gap-2">
+              <button
+                class="bordern text-[9px] md:text-[13px] hover:bg-white hover:text-black fa-solid fa-plus md:w-[160px] w-[120px] md:h-[40px] p-[8px] bg-neutral-900 font-meduim rounded-r-3xl rounded-l-3xl"
+              >
+                Create
+              </button>
+              <i
+                class="fa-solid fa-bell hover:bg-white hover:text-black md:text-2xl hidden md:block md:mb-[20px]"
+              ></i>
+              <img
+                src="/image/WhatsApp Image 2025-12-30 at 3.34.55 PM00.jpeg"
+                class="w-[40px] h-[40px] rounded-3xl ml-2"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex-1 flex justify-start items-start relative gap-4 p-4 swiper mySwiper w-full max-w-[1150px] mx-auto"
+        >
+          <div class="md:flex swiper-wrapper w-[540px]">
+            <div class="flex gap-2 h-[40px]">
+              <h1
+                class="border border-transparent bg-neutral-900 rounded-lg pl-[9px] font-bold hover:bg-white hover:text-black p-1 w-[50px]"
+              >
+                All
+              </h1>
+              <h1
+                class="border border-transparent bg-neutral-900 rounded-lg pl-[10px] font-bold hover:bg-white hover:text-black p-1 w-[120px]"
+              >
+                JavaScript
+              </h1>
+              <h1
+                class="border border-transparent bg-neutral-900 rounded-lg pl-[16px] font-bold hover:bg-white hover:text-black p-1 w-[90px]"
+              >
+                Music
+              </h1>
+              <h1
+                class="border border-transparent bg-neutral-900 rounded-lg pl-[12px] font-bold hover:bg-white hover:text-black p-1 w-[50px]"
+              >
+                Al
+              </h1>
+              <h1
+                class="border border-transparent bg-neutral-900 rounded-lg pl-[9px] font-bold hover:bg-white hover:text-black p-1 w-[100px]"
+              >
+                Podcasts
+              </h1>
+              <h1
+                class="border border-transparent bg-neutral-900 rounded-lg pl-[12px] font-bold hover:bg-white hover:text-black p-1 w-[180px]"
+              >
+                User interface design
+              </h1>
+              <h1
+                class="border border-transparent bg-neutral-900 rounded-lg pl-[12px] font-bold hover:bg-white hover:text-black p-1 w-[190px]"
+              >
+                Machester United F.C.
+              </h1>
+              <h1
+                class="border border-transparent bg-neutral-900 rounded-lg pl-[12px] font-bold hover:bg-white hover:text-black p-1 w-[100px]"
+              >
+                Databases
+              </h1>
+              <h1
+                class="border border-transparent bg-neutral-900 rounded-lg pl-[12px] font-bold hover:bg-white hover:text-black p-1 w-[70px]"
+              >
+                Mixes
+              </h1>
+            </div>
+
+            <div class="md:flex h-[40px] ml-2">
+              <h1
+                class="border border-transparent bg-neutral-900 rounded-lg pl-[12px] font-bold hover:bg-white hover:text-black p-1 w-[140px]"
+              >
+                Scam baiting
+              </h1>
+              <h1 class="">Gaming</h1>
+              <h1 class="">Freestyle Rap</h1>
+              <h1 class="">Nollywood</h1>
+            </div>
+          </div>
+
+          <div
+            class="swiper-button-next text-white top-2 right-1 mt-2 -translate-y-1"
+          ></div>
+          <div
+            class="swiper-button-prev text-white top-2 left-1 mt-2 w-4 h-5 -translate-y-1"
+          ></div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <!--  START -->
+        <div class="md:ml-5 gap-4 grid md:grid-cols-3">
+          <!-- CARD 1 -->
+          <div class="p-5">
+            <img
+              src="/image/videoframe_4983.png"
+              class="w-full md:w-[400px] rounded-lg"
+              alt=""
+            />
+            <div class="mt-3 flex gap-2">
+              <img
+                src="/image/channels4_profile.jpg"
+                class="w-[40px] h-[40px] rounded-full"
+                alt=""
+              />
+              <div>
+                <h1 class="font-bold md:w-[310px]">
+                  CSS Full Course Tutorial for Beginners Learn EVERYTHING You
+                  Need to Know...
+                </h1>
+                <p class="mt-1 text-gray-400">Future Fullstack</p>
+                <p class="text-[12px] text-gray-400 font-medium">
+                  96k views &#183; 9 months ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 2 -->
+          <div class="p-5">
+            <img
+              src="/image/hq720 (1).avif"
+              class="w-full md:w-[400px] rounded-lg"
+              alt=""
+            />
+            <div class="mt-3 flex gap-2">
+              <img
+                src="/image/unnamed.jpg"
+                class="w-[40px] h-[40px] rounded-full"
+                alt=""
+              />
+              <div>
+                <h1 class="font-bold md:w-[310px] text-[20px]">
+                  King Von- Crazy Story, Pt. 3(Official Video)
+                </h1>
+                <p class="mt-1 text-gray-400 text-[19px]">King Von</p>
+                <p class="md:text-[12px] text-[15px] text-gray-400 font-medium">
+                  177M views &#183; 5 years ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 3 -->
+          <div class="p-5">
+            <img
+              src="/image/videoframe_6584.png"
+              class="w-full md:w-[400px] rounded-lg"
+              alt=""
+            />
+            <div class="mt-3 flex gap-2">
+              <img
+                src="/image/channels4_profile (1).jpg"
+                class="w-[40px] h-[40px] rounded-full"
+                alt=""
+              />
+              <div>
+                <h1 class="font-bold md:w-[310px] w-[350px] text-[20px]">
+                  Rebuild Yourself in 2026 &#124; Jim Rohn Motivation
+                </h1>
+                <p class="mt-1 text-gray-400 text-[19px]">
+                  Jim Rohn Motivation
+                </p>
+                <p class="md:text-[12px] text-[15px] text-gray-400 font-medium">
+                  971 views &#183; 9 months ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 4 -->
+          <div class="p-5">
+            <img
+              src="/image/videoframe_2318.png"
+              class="w-full md:w-[400px] rounded-lg"
+              alt=""
+            />
+            <div class="mt-3 flex gap-2">
+              <img
+                src="/image/channels4_profile (2).jpg"
+                class="w-[40px] h-[40px] rounded-full"
+                alt=""
+              />
+              <div>
+                <h1 class="font-bold md:w-[310px] text-[20px]">
+                  If You Want to be Wealthy & Happy....
+                </h1>
+                <p class="mt-1 text-gray-400 text-[19px]">GrindBuddy</p>
+                <p class="md:text-[12px] text-[15px] text-gray-400 font-medium">
+                  5.2M views &#183; 8 months ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 5 -->
+          <div class="p-5">
+            <img
+              src="/image/videoframe_4983.png"
+              class="w-full md:w-[400px] rounded-lg"
+              alt=""
+            />
+            <div class="mt-3 flex gap-2">
+              <img
+                src="/image/channels4_profile.jpg"
+                class="w-[40px] h-[40px] rounded-full"
+                alt=""
+              />
+              <div>
+                <h1 class="font-bold md:w-[310px] text-[20px]">
+                  CSS Full Course Tutorial for Beginners Learn EVERYTHING You
+                  Need to Know...
+                </h1>
+                <p class="mt-1 text-gray-400 text-[19px]">Future Fullstack</p>
+                <p class="md:text-[12px] text-[15px] text-gray-400 font-medium">
+                  96k views &#183; 9 months ago
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
